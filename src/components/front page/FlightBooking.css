@@ -1,0 +1,108 @@
+/* FlightBooking.css */
+
+/* FlightBooking.css */
+
+.flight-booking-container {
+  width: 100%;
+  max-width: 600px; /* Reduce the max-width */
+  margin: 20px auto 0; /* Add margin-top to move the container down */
+  padding: 15px; /* Reduce padding */
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.booking-heading {
+  text-align: center;
+  font-size: 24px; /* Reduce font size */
+  margin-bottom: 15px; /* Reduce margin */
+  color: #333;
+}
+
+.trip-type-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px; /* Reduce margin */
+}
+
+.form-check-input {
+  margin-right: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px; /* Reduce margin */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px; /* Reduce padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px; /* Reduce font size */
+  color: #333;
+  box-sizing: border-box;
+  height: 40px; /* Reduce height */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px; /* Reduce padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Reduce font size */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.booking-header {
+  color: #fff;
+  background-color: #b481ed;
+  padding: 8px; /* Reduce padding */
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.search-results {
+  margin-top: 15px; /* Reduce margin */
+}
+
+.result-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 12px; /* Reduce padding */
+  margin-bottom: 12px; /* Reduce margin */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.result-card h3 {
+  font-size: 20px; /* Reduce font size */
+  margin-bottom: 8px; /* Reduce margin */
+  color: #333;
+}
+
+.result-card p {
+  margin: 6px 0; /* Reduce margin */
+  color: #777;
+}
+
+
+/* Add this CSS to your FlightBooking.css file */
+.trip-type-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.trip-type-selection button {
+  margin-right: 10px; /* Add margin between the buttons */
+  padding: 10px 20px; /* Add padding to the buttons */
+}

@@ -1,0 +1,69 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Keep the rest of your CSS as it is */
+
+.App-header {
+  background-color: rgb(248, 220, 248);
+  min-height: 10vh;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: flex-start; /* Align to the left */
+  font-size: calc(10px + 2vmin);
+  color: rgb(132, 10, 143);
+  position: fixed; /* Add a fixed position */
+  width: 100%; /* Occupy the full width of the viewport */
+  top: 0; /* Stick to the top */
+  left: 0; /* Stick to the left */
+  z-index: 100; /* Ensure it's above other content */
+}
+
+/* Style for the logo */
+.App-logo {
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+  margin-right: 20px; /* Add some spacing to the right of the logo */
+}
+
+/* Style for the heading */
+h1 {
+  margin: 0; /* Remove default margin for h1 */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+.App-header h1 {
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+
+body {
+  background-image: url('C:\Users\249408\Desktop\front end\hack23-team116-frontend\flight\src\components\images\flightImg.jpg'); /* Replace with the URL of your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional, makes the background fixed */
+  margin: 0;
+  padding: 0;
+  padding-top: 100px; /* Add padding to the top to push the body content down below the fixed header */
+}
+
+
+.App-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
